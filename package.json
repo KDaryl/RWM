@@ -1,0 +1,12 @@
+{
+  "name": "Modulo_First",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "chai": "~1.8.0",
+    "mocha": "2.0.1"
+  },
+  "scripts": {
+    "test": "mocha ./spec/Modulo_First.js"
+  }
+}
