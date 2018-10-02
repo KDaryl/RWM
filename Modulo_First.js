@@ -4,6 +4,8 @@
 var Modulo_First = function (lis) { //Takes a list of integers
   if(lis.length === 0)
     return [];
+  if(lis[0] === 0)
+    return 0; //Dividng by 0, cant do that!
 
   var n = lis[0];
   var ans = [];
